@@ -16,7 +16,7 @@ courses: { compsci: {week: 2} }
         margin-left: auto;
         margin-right: auto;
     }
-
+/*creates board and where the game is displayed*/ 
     canvas{
         display: none;
         border-style: solid;
@@ -72,7 +72,7 @@ courses: { compsci: {week: 2} }
     }
 </style>
 
-
+<!--Creates the text and descriptions that are used within the game-->
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
         <p class="fs-4">Snake score: <span id="score_value">0</span></p>

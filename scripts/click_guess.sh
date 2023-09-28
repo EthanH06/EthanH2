@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Linux Shell (Bash) Part
-echo "Welcome to the Moving Target Aim Trainer!"
+echo "Welcome to the Moving Target Guessing Game!"
 read -p "Press Enter to start..."
 
 # Initialize the target position
@@ -10,7 +10,7 @@ target_position=$((1 + RANDOM % 100))
 # Function to display the target area
 function display_target {
     clear  # Clear the terminal screen
-    echo "Moving Target Aim Trainer - Hit the target area between 1 and 100"
+    echo "Moving Target Guesesing Game - Hit the target area between 1 and 100"
     echo ""
     
     # Display the target area as a horizontal line
